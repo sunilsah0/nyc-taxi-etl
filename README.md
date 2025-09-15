@@ -44,6 +44,10 @@ PyArrow → Parquet file support
 Requests → download data
 
 SQLAlchemy → database connector
+## 🛢️ Database
+This project uses **SQLite (nyc_taxi.db)** for simplicity.  
+In production, the pipeline can be easily extended to **PostgreSQL** or cloud data warehouses.
+
 
 SQLite → lightweight relational database
 
