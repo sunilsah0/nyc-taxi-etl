@@ -11,10 +11,12 @@ This project runs directly in **GitHub Codespaces** — no local setup required.
 
 
 flowchart LR
-    A[Extract] -->|Download Parquet| B[Transform]
-    B -->|Clean + Save| C[Load]
-    C -->|Insert| D[(SQLite Database)]
+---
+    A[Extract] -->|Download Parquet| 
+    B[Transform]B -->|Clean + Save|
+    C[Load]C -->|Insert| D[(SQLite Database)]
     D -->|Query| E[Analysis & Insights]
+--- 
  Project Structure
 nyc-taxi-etl/
 │
