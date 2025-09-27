@@ -15,8 +15,7 @@ flowchart LR
     B -->|Clean + Save| C[Load]
     C -->|Insert| D[(SQLite Database)]
     D -->|Query| E[Analysis & Insights]
-
-📂 Project Structure
+ Project Structure
 nyc-taxi-etl/
 │
 ├── data/                 # Extracted & transformed data
