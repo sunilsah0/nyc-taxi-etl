@@ -7,9 +7,9 @@ This project runs directly in **GitHub Codespaces** — no local setup required.
 
 ---
 
-## 📊 ETL Pipeline Flow
+# 📊 ETL Pipeline Flow
 
-```mermaid
+
 flowchart LR
     A[Extract] -->|Download Parquet| B[Transform]
     B -->|Clean + Save| C[Load]
